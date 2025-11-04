@@ -614,8 +614,7 @@ M.setup = function(opts)
 	vim.keymap.set('', '<C-W>я', '<C-W>z', { desc = 'which_key_ignore' })
 	vim.keymap.set('', '<C-W>Ъ', '<C-W>}', { desc = 'which_key_ignore' })
 
-  vim.keymap.set('n', '№', '#', { desc = 'which_key_ignore' })
-  vim.keymap.set('n', ';', '$', { desc = 'which_key_ignore' })
+	vim.keymap.set('n', '№', '#', { desc = 'which_key_ignore' })
 end
 
 return M
